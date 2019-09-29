@@ -1,0 +1,163 @@
+
+body {
+    font-family: arial,sans-serif;
+}
+
+
+/* ---------------------Header section------------------------*/
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.header-link {
+    position: relative;
+    top: 10px;
+    padding: 15px;
+}
+
+.header-image img {
+   max-width: 100%;
+   height: auto;
+   position: relative;
+   bottom: 10px;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.button-sign-in a {
+    background-color: #6990f5;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-sign-in a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.header-image {
+    opacity: 0.5;
+}
+
+.header-image:hover {
+    opacity: 1;
+}
+
+/* ---------------------Main section------------------------*/
+
+.main-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-container img {
+    background-size: cover;
+    max-width: 500px;
+}
+
+#search-bar {
+    height: 30px;
+    width: 600px;
+    border-radius: 100px;    
+    border: 0.5px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+input, button {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px;
+    opacity: 0.7;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    opacity: 1;
+    font-weight: 800;
+}
+
+.main-container button:first-child {
+    margin-right: 10px;
+}
+
+input {
+    width: 800px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+.languages {
+    margin-top: 20px;
+}
+
+.languages a {
+    text-decoration: none;
+    color: rgb(0, 0, 238);
+}
+
+.languages p, .languages a {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.languages a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------footer------------------------*/
+
+.footer-container {
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    height: 120px;
+    opacity: 0.7;
+    
+}
+
+.footer-container p {
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+
+
+.left-side {
+    float: left;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.right-side {
+    float: right;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.left-side a, .right-side a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: black;
+    font-size: 15px;
+}
+
+nav a:hover {
+        text-decoration: underline;
+}

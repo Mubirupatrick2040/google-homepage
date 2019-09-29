@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
-    <link href="./resources/css/style.css" type="css/text" rel="stylesheet">
-    <link href="./resources/css/reset.css" type="css/text" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <div>
+            <div class="header-link"> 
                 <a href="https://mail.google.com/mail/?tab=wm&oqbl">Gmail</a>
             </div>
-            <div>
+            <div class="header-link">
                 <a href="https://www.google.co.ug/imqhp?hl=en&tab=wi&oqbl">Images</a>
             </div>
 
-            <div>
-                <a href="https://www.google.co.ug/intl/en/about/products?tab=wh" title="Google apps"><img src="./resources/images/app.png" /></a>
+            <div class="header-link header-image">
+                <a href="https://www.google.co.ug/intl/en/about/products?tab=wh" title="Google apps"><img src="./resources/images/app_img.png" /></a>
             </div>
 
-            <div id="sign-in">
+            <div class="header-link button-sign-in">
                 <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" target="_top">Sign in</a>
             </div>
 
@@ -31,33 +31,46 @@
     </header>
 
 <main>
-    <div>
-        <img src="./resources/images/google.jpg" />
+    <div class="main-container">
+        <img src="./resources/images/google.gif" />
         <form>
-            <input id="search" name="search" type="text" placeholder="" value="" /> 
-            <div class="buttons">   
+            <input id="search-bar" name="search" type="text" placeholder="search.." value="" /> 
+            <div id="buttons">   
                 <button>Google Search</button>
                 <button>I'm Feeling Lucky</button>
             </div>
         </form>
+        <div class="languages">
+            <p>Google offered in:</p>
+            <a href="#">Luganda</a>
+            <a href="#">Kiswahili</a>
+            <a href="#">Ikinyarwanda</a>
+            <a href="#">Luo</a>
+            <a href="#">Runyakitara</a>
+        </div>
+        
     </div>
 </main>
 
 
 <footer>
+    <div class="footer-container">
     <p>Uganda</p>
     <hr />
-    <div class="footer-left">
+    <nav>
+        <div class="left-side">
         <a href="#">Advertising</a>
         <a href="#">Business</a>
         <a href="#">About</a>
         <a href="#">How Search works</a>
-        <div class="footer-right">
+    </div>
+        <div class="right-side">
             <a href="#">Privacy</a>
-            <a href="#">Term</a>
+            <a href="#">Terms</a>
             <a href="#">Settings</a> 
         </div>
-    </div>
+    </nav>
+</div>
 </footer>
 </body>
 </html>
