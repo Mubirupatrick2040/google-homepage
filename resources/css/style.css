@@ -135,7 +135,9 @@ input {
     font-size: 17px;
 }
 
-
+hr {
+    opacity: 0.3;
+}
 
 .left-side {
     float: left;
